@@ -11,19 +11,21 @@ The **AI Chatbot Business Model Template** is a Python-based module architecture
 ### Prerequisites
 Ensure you have Python 3.8 or higher installed. Download it from [python.org](https://www.python.org/downloads/).
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/alfonsusenrico/ai-chatbot-business-model-template.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd AI-Chatbot-Business-Module-Template
-   ```
-3. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🚀 How to Use This Template
+
+1. Click the green **"Use this template"** button above
+2. Create your new repository with your desired name
+3. Clone your new repository locally
+4. Customize the business module for your needs
+5. Optionally run our setup script for enhanced configuration
+
+## OR
+
+## 🚀 Using This Template
+
+1. Clone or download this repository
+2. Remove the `.git` folder: `rm -rf .git`
+3. Customize the business module for your needs
 
 ## 📁 Project Structure
 ```
