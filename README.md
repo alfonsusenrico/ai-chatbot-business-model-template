@@ -28,15 +28,12 @@ Ensure you have Python 3.8 or higher installed. Download it from [python.org](ht
 ## 📁 Project Structure
 ```
 AI-Chatbot-Business-Module-Template/
-├── business_modules/
-│   └── base_module.py          # Base class for business modules
 ├── clients/                     # External APIs or services for integration
-├── config.py                    # Configuration settings for the module
 ├── files/                       # Storage for referenced or needed files
-├── functions/                   # Core process functions
-│   ├── template_function.py     # Example function template
-│   └── cleanup_session_data.py  # Function to clean session data
+├── config.py                    # Configuration settings for the module
+├── functions.py                 # Core process functions
 ├── main.py                      # Main business logic implementation
+├── utils.py                     # Function helpers
 └── requirements.txt             # Python package dependencies
 ```
 
@@ -48,36 +45,29 @@ AI-Chatbot-Business-Module-Template/
 - **`main.py`**  
   Contains the core business logic for the module. This is where the main AI integration and module operations are defined. Customize the class `ModuleNameModule` to match your specific module name and logic.
 
-- **`clients/`**  
-  Folder designated for external API integrations or third-party services that your module will connect with.
+- **`business_modules/base_module.py`**  
+  Defines the `BaseBusinessModule` class, which your business modules inherit from to ensure consistent structure and functionality.
 
-- **`files/`**  
-  Directory for storing files needed by your business module, such as templates, data files, or other resources.
+- **`clients/`**  
+  Directory to include scripts or configurations for external APIs or third-party services that your business module may need to interface with.
 
 - **`config.py`**  
-  Configuration file containing environment-specific settings like AI model parameters, API keys, and tools.
+  Stores configuration variables such as API keys, model parameters, and other settings specific to your business logic.
+
+- **`files/`**  
+  Place to store files needed by your module, such as templates, static data, or other resources.
 
 - **`functions/`**  
-  Contains helper functions used within your business module, such as processing templates or cleaning session data.
+  Contains auxiliary functions that support your business logic, such as processing functions, data cleanup, or utility scripts.
 
 ---
 
-## 🎯 Usage Tips
-- Modify the `ModuleNameModule` class in `main.py` to implement your specific business logic.
-- Adjust the `get_ai_config` and `get_openai_api_key` methods to fit your AI environment.
-- Define your state transitions within `get_next_state` to control conversation flow.
-- Use the `get_state_prompt` method to provide context-aware prompts based on the current state.
+## Contributions
+This template is designed to be extended and customized. Feel free to fork, modify, and adapt it to your specific use case. For contributions, please open a pull request or issue.
 
----
-
-## 📢 Contributing
-This project is a template for building your own AI Chatbot business modules. Feel free to fork, customize, and extend it to suit your needs. For contributions, please open pull requests or issues.
-
----
-
-## 📝 License
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-*This README provides a comprehensive overview to help you start customizing your AI Chatbot Business Module effectively.*
+*Start building your custom AI-powered business modules today!* 🚀
