@@ -45,19 +45,16 @@ AI-Chatbot-Business-Module-Template/
 - **`main.py`**  
   Contains the core business logic for the module. This is where the main AI integration and module operations are defined. Customize the class `ModuleNameModule` to match your specific module name and logic.
 
-- **`business_modules/base_module.py`**  
-  Defines the `BaseBusinessModule` class, which your business modules inherit from to ensure consistent structure and functionality.
-
 - **`clients/`**  
   Directory to include scripts or configurations for external APIs or third-party services that your business module may need to interface with.
 
 - **`config.py`**  
-  Stores configuration variables such as API keys, model parameters, and other settings specific to your business logic.
+  Stores configuration variables such as model parameters, and other settings specific to your business logic. For credential and API keys need to be stored safely to database or key management service.
 
 - **`files/`**  
   Place to store files needed by your module, such as templates, static data, or other resources.
 
-- **`functions/`**  
+- **`functions.py`**  
   Contains auxiliary functions that support your business logic, such as processing functions, data cleanup, or utility scripts.
 
 ---
