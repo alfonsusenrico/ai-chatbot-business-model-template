@@ -14,7 +14,7 @@ Ensure you have Python 3.8 or higher installed. Download it from [python.org](ht
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://your-repo-url.git
+   git clone https://github.com/alfonsusenrico/ai-chatbot-business-model-template.git
    ```
 2. Navigate to the project directory:
    ```bash
